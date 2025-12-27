@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "HeaderFont";
+    src: url(../FONTS/PoiretOne-Regular.ttf);
+    font-weight: bolder;
+}
+
+.main_header{
+    background-color: #86728B;
+    display: flex;
+    flex-flow: row;
+    padding: 5px;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    font-family: HeaderFont;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+.header_left img{
+    width: 100px;
+}
+
+.header_right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  
+}
+
+.header_right input{
+    border-radius: 7px;
+    border-style: hidden;
+    padding-left: 10px;
+}
